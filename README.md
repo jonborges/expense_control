@@ -21,7 +21,14 @@ Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
 Siga estas etapas para configurar o aplicativo em sua máquina local:
 
-1. Clone este repositório:
+# Passo 1: Clone o repositório do GitHub para sua máquina local
+git clone https://github.com/jonborges/expense_control
 
-   ```shell
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+# Passo 2: Navegue até o diretório do projeto
+cd seu-repositorio
+
+# Passo 3: Instale as dependências usando npm
+npm install
+
+# Passo 4: Inicie o aplicativo em modo de desenvolvimento
+npm start
