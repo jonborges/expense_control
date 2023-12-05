@@ -1,46 +1,41 @@
-# Getting Started with Create React App
+## Controle de Gastos Simples
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Visão Geral
 
-## Available Scripts
+Este é um aplicativo de controle de gastos simples desenvolvido em TypeScript e React. Ele simula um banco de dados usando a pasta "Data" para armazenar informações sobre despesas e receitas ao longo dos meses.
 
-In the project directory, you can run:
+### Funcionalidades
 
-### `npm start`
+- Registre suas despesas e receitas mensais.
+- Visualize um resumo dos seus gastos e ganhos.
+- Acesse os meses que ocorreram ganhos e gastos.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pré-requisitos
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+Antes de começar, certifique-se de ter as seguintes ferramentas instaladas:
 
-### `npm test`
+- Node.js: https://nodejs.org/
+- npm (gerenciador de pacotes do Node.js): https://www.npmjs.com/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Instalação
 
-### `npm run build`
+Siga estas etapas para configurar o aplicativo em sua máquina local:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone este repositório:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```shell
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+=======
+ Passo 1: Clone o repositório do GitHub para sua máquina local
+#git clone https://github.com/jonborges/expense_control
 
-### `npm run eject`
+ Passo 2: Navegue até o diretório do projeto
+#cd seu-repositorio
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+ Passo 3: Instale as dependências usando npm
+#npm install
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ Passo 4: Inicie o aplicativo em modo de desenvolvimento
+#npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
